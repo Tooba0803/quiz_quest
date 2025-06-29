@@ -8,19 +8,20 @@ from instructions import show_instructions
 # Start default quiz (hardcoded questions from quiz.py)
 def open_quiz():
     quiz_win = QuizWindow(root, show_result)
-#main
+
+# Main window
 root = tk.Tk()
 root.title("Quiz Quest")
 root.geometry("400x400")
-root.configure(bg="#f4f4f4")
+root.configure(bg="#d8f3dc")  # Pastel mint green background
 
 # Styling
 style = ttk.Style(root)
 style.configure("TButton", font=("Segoe UI", 12), padding=10)
-style.configure("TLabel", font=("Segoe UI", 18, "bold"))
+style.configure("TLabel", font=("Segoe UI", 18, "bold"), background="#d8f3dc")
 
 # Title
-title = ttk.Label(root, text="Quiz Quest", background="#f4f4f4")
+title = ttk.Label(root, text="Quiz Quest", background="#d8f3dc")
 title.pack(pady=40)
 
 # Buttons
