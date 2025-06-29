@@ -10,6 +10,13 @@ def show_instructions():
     #instruction to play
     ttk.Label(win, text="🎮 How to Play the Quiz Game 🎮", font=("Arial", 14, "bold")).pack(pady=10)
 
+    #motivational message
+    ttk.Label(win, text="Good luck and have fun! 🧠", font=("Arial", 10, "italic")).pack()
+
+    # Frame for grouped instructions
+    frame = ttk.LabelFrame(win, text="Read Carefully", padding=10)
+    frame.pack(pady=10, padx=10, fill='both', expand=True)
+    
     instructions = (
         "1. Click 'Start Quiz' to begin.\n"
         "2. Select the correct answer from the options.\n"
@@ -20,3 +27,5 @@ def show_instructions():
 
   ttk.Label(win, text=instructions, wraplength=350, justify="left").pack(pady=20)
     ttk.Button(win, text="Close", command=win.destroy).pack(pady=10)
+
+win.bind("<Escape>", lambda e: win.destroy())
