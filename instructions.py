@@ -7,8 +7,10 @@ def show_instructions():
     win.geometry("400x300")
     win.config(bg="#fdfdfd")
 
-    ttk.Label(win, text="Instructions", font=("Arial", 18, "bold")).pack(pady=10)
+    #title 
+    ttk.Label(win, text="🎮 How to Play the Quiz Game 🎮", font=("Arial", 14, "bold")).pack(pady=10)
 
+#instructions text 
     instructions = (
         "1. Click 'Start Quiz' to begin.\n"
         "2. Select the correct answer from the options.\n"
@@ -17,5 +19,5 @@ def show_instructions():
         "5. You can choose different topics from the topic page."
     )
 
-    ttk.Label(win, text=instructions, wraplength=350, justify="left").pack(pady=20)
+  ttk.Label(win, text=instructions, wraplength=350, justify="left").pack(pady=20)
     ttk.Button(win, text="Close", command=win.destroy).pack(pady=10)
