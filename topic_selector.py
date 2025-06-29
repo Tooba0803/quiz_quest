@@ -7,7 +7,7 @@ from result import show_result
 with open("questions.json", "r") as f:
     topics = json.load(f)
 
-# Function to choose topic
+# Function to choose topic choice
 def choose_topic(root):
     win = tk.Toplevel(root)
     win.title("Choose a Topic")
