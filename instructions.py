@@ -24,7 +24,7 @@ def show_instructions():
         "4. At the end, your score will be shown.\n"
         "5. You can choose different topics from the topic page."
     )
-
+edit 
   ttk.Label(win, text=instructions, wraplength=350, justify="left").pack(pady=20)
     ttk.Button(win, text="Close", command=win.destroy).pack(pady=10)
 
