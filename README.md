@@ -70,10 +70,27 @@ quiz-quest/
    cd quiz_quest
 Run the app:
 
+Bash
 python main.py
 
 📸 Screenshots
-To be added
+
+<img width="960" alt="aa" src="https://github.com/user-attachments/assets/f86acc72-c8b7-4f20-b9b2-41f4d265f078" />
+
+![094b4b81-deff-4ed1-9d15-6cd1a4f12c9e](https://github.com/user-attachments/assets/e2f11663-624e-4501-97c9-eabaf16321d5)
+
+![WhatsApp Image 2025-06-29 at 4 28 14 PM](https://github.com/user-attachments/assets/22095e07-9821-4e92-ba6e-45fa24a92f74)
+
+![02347c01-0e65-4009-89bc-22d8c4a25070](https://github.com/user-attachments/assets/925554e6-cc28-4945-b7ed-1707c09d084e)
+
+![fefccb3e-ff9b-42fb-ba62-5c59d6e88385](https://github.com/user-attachments/assets/4d96310d-da5f-4ece-9fac-8abc8387f740)
+
+![dff73485-bf7f-4e8f-9823-87a2641b8a42](https://github.com/user-attachments/assets/7e9e6308-ec07-4108-b18e-de425c8c2493)
+
+![6daab43a-5b25-46d3-a389-7e861d957512](https://github.com/user-attachments/assets/ab098153-e835-4ba0-9314-f7568d10fca7)
+
+![397dff0d-4669-4bcd-94f3-eb2e7576283d](https://github.com/user-attachments/assets/732f325a-c84b-47dc-9c70-d288a8badd8d)
+
 
 👥 Team Contributions
 | Member      | GitHub Branch          | Responsibility                        |
@@ -105,7 +122,7 @@ To be added
 
  Add instructions window
 
- Show result in popup
+ Change bg color
 
  Connect all files from main UI
 
