@@ -13,7 +13,7 @@ def open_quiz():
 root = tk.Tk()
 root.title("Quiz Quest")
 root.geometry("400x400")
-root.configure(bg="#d8f3dc")  # Pastel mint green background
+root.configure(bg="#e3a0a0")  # Pastel pink background
 
 # Styling
 style = ttk.Style(root)
