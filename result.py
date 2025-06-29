@@ -1,6 +1,6 @@
 import tkinter as tk
 from tkinter import ttk
-
+# main
 def show_result(score, total):
     result_win = tk.Toplevel()
     result_win.title("Result")
