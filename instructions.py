@@ -10,7 +10,6 @@ def show_instructions():
     #title 
     ttk.Label(win, text="🎮 How to Play the Quiz Game 🎮", font=("Arial", 14, "bold")).pack(pady=10)
 
-#instructions text 
     instructions = (
         "1. Click 'Start Quiz' to begin.\n"
         "2. Select the correct answer from the options.\n"
