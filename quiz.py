@@ -1,7 +1,7 @@
 import tkinter as tk
 from tkinter import ttk
 import json
-
+# seen 
 # Load default questions from JSON
 with open("questions.json", "r") as f:
     question_data = json.load(f)
