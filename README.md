@@ -37,21 +37,28 @@ Quiz Quest is a collaborative Tkinter-based GUI application designed to provide 
 ### 📂 File Structure
 quiz-quest/
 ├── main.py
+├── quiz.py
+├── topic_selector.py
+├── result.py
+├── instructions.py
+├── questions.json
+
+
 <img width="602" alt="main" src="https://github.com/user-attachments/assets/be0c26f3-0b40-40bb-bc9c-28a0c38ddb31" />
 
-├── quiz.py
+
 <img width="453" alt="quiz" src="https://github.com/user-attachments/assets/28e16727-88e1-42fb-bbce-fa23d26e640e" />
 
-├── topic_selector.py
+
 <img width="679" alt="topic" src="https://github.com/user-attachments/assets/98a4761f-4c82-47d4-a601-64871316c494" />
 
-├── result.py
+
 <img width="679" alt="result" src="https://github.com/user-attachments/assets/b0e1e71a-0e57-40a7-bcb5-7ba5ce422fcb" />
 
-├── instructions.py
+
 <img width="595" alt="instructions" src="https://github.com/user-attachments/assets/4cdff2e3-bb6c-4b45-914a-66254ab7589d" />
 
-├── questions.json
+
 <img width="308" alt="quest" src="https://github.com/user-attachments/assets/af50e688-1526-4cc8-a94b-22b74dbda40e" />
 
 
@@ -64,12 +71,11 @@ quiz-quest/
 Run the app:
 
 bash
+Copy
+Edit
 python main.py
-
-<img width="960" alt="aa" src="https://github.com/user-attachments/assets/f33e6cad-513a-4c4a-a055-61b31f68ec3f" />
-
-![WhatsApp Image 2025-06-29 at 4 28 14 PM](https://github.com/user-attachments/assets/3d4fefa4-ae03-4310-99c1-92f3f5803c72)
-
+📸 Screenshots
+To be added
 
 👥 Team Contributions
 Member	GitHub Branch	Responsibility
@@ -79,5 +85,33 @@ Nafeesa	nafeesa-instructions	instructions.py, how-to window
 Zoha	zoha-result	result.py, result popup
 Kashaf	kashaf-topic	topic_selector.py, topic handling
 
+📌 Issues & Pull Requests
+🔧 Major PRs
+#1 Ahmad - Quiz logic
 
+#2 Kashaf - Topic selection
+
+#3 Nafeesa - Instructions module
+
+#4 Zoha - Result window
+
+#5 Tooba - Main window
+
+📌 Issues Created
+ Implement quiz logic
+
+ Add topic selection
+
+ Add instructions window
+
+ Show result in popup
+
+ Connect all files from main UI
+
+📦 Backend Details
+All quiz data is stored in a JSON file questions.json
+
+Structure includes multiple topics and default quiz
+
+Easily expandable for more subjects or questions
 
