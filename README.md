@@ -101,6 +101,9 @@ python main.py
 | **Zoha**    | `zoha-result`          | `result.py`, result popup             |
 | **Kashaf**  | `kashaf-topic`         | `topic_selector.py`, topic handling   |
 
+Project Overview
+
+<img width="304" alt="neww" src="https://github.com/user-attachments/assets/835c5e85-c345-46dc-af2e-f0723c33b5d1" />
 
 📌 Issues & Pull Requests
 🔧 Major PRs
