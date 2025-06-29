@@ -4,7 +4,6 @@ import json
 from quiz import QuizWindow
 from result import show_result
 
-# Load all topics from JSON
 with open("questions.json", "r") as f:
     topics = json.load(f)
 
