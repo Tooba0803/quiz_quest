@@ -70,23 +70,24 @@ quiz-quest/
    cd quiz_quest
 Run the app:
 
-bash
-Copy
-Edit
 python main.py
+
 📸 Screenshots
 To be added
 
 👥 Team Contributions
-Member	GitHub Branch	Responsibility
-Tooba	tooba-main	Project lead, main.py, coordination
-Ahmad	ahmad-quiz	quiz.py, quiz logic and interface
-Nafeesa	nafeesa-instructions	instructions.py, how-to window
-Zoha	zoha-result	result.py, result popup
-Kashaf	kashaf-topic	topic_selector.py, topic handling
+| Member      | GitHub Branch          | Responsibility                        |
+| ----------- | ---------------------- | ------------------------------------- |
+| **Tooba**   | `tooba-main`           | Project lead, `main.py`, coordination |
+| **Ahmad**   | `ahmad-quiz`           | `quiz.py`, quiz logic and interface   |
+| **Nafeesa** | `nafeesa-instructions` | `instructions.py`, how-to window      |
+| **Zoha**    | `zoha-result`          | `result.py`, result popup             |
+| **Kashaf**  | `kashaf-topic`         | `topic_selector.py`, topic handling   |
+
 
 📌 Issues & Pull Requests
 🔧 Major PRs
+
 #1 Ahmad - Quiz logic
 
 #2 Kashaf - Topic selection
