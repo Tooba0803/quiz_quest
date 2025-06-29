@@ -8,7 +8,7 @@ def show_instructions():
     win.config(bg="#fdfdfd")
 
     #instruction to play
-    ttk.Label(win, text="🎮 How to Play the Quiz Game 🎮", font=("Arial", 14, "bold")).pack(pady=10)
+    ttk.Label(win, text="🎮 How to Play a Quiz Game 🎮", font=("Arial", 14, "bold")).pack(pady=10)
 
     #motivational message
     ttk.Label(win, text="Good luck and have fun! 🧠", font=("Arial", 10, "italic")).pack()
