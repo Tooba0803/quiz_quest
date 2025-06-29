@@ -8,8 +8,7 @@ from instructions import show_instructions
 # Start default quiz (hardcoded questions from quiz.py)
 def open_quiz():
     quiz_win = QuizWindow(root, show_result)
-
-# Main window setup
+#main
 root = tk.Tk()
 root.title("Quiz Quest")
 root.geometry("400x400")
