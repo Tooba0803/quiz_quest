@@ -13,10 +13,9 @@ def show_instructions():
     #motivational message
     ttk.Label(win, text="Good luck and have fun! 🧠", font=("Arial", 10, "italic")).pack()
 
-    # Frame for grouped instructions
-    frame = ttk.LabelFrame(win, text="Read Carefully", padding=10)
-    frame.pack(pady=10, padx=10, fill='both', expand=True)
-    
+    edit:
+    ttk.Label(win, text=instructions, wraplength=350, justify="left").pack(pady=20)
+
     instructions = (
         "1. Click 'Start Quiz' to begin.\n"
         "2. Select the correct answer from the options.\n"
