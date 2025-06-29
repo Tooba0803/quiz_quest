@@ -7,7 +7,7 @@ def show_instructions():
     win.geometry("400x300")
     win.config(bg="#fdfdfd")
 
-    #title 
+    #instruction to play
     ttk.Label(win, text="🎮 How to Play the Quiz Game 🎮", font=("Arial", 14, "bold")).pack(pady=10)
 
     instructions = (
