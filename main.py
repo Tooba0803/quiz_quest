@@ -36,3 +36,5 @@ howto_btn.pack(pady=10)
 
 # Run the app
 root.mainloop()
+
+More buttons be needed    changed
