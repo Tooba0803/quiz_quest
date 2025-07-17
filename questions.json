@@ -24,9 +24,9 @@
       "answer": "Rome"
     },
     {
-      "question": "Sun rises from?",
+      "question": "Sun set at?",
       "options": ["North", "South", "East", "West"],
-      "answer": "East"
+      "answer": "West"        Changes made
     }
   ],
   "Math": [
