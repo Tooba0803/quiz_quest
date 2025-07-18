@@ -12,17 +12,17 @@ def show_instructions():
 
     #motivational message
     ttk.Label(win, text="Good luck and have fun! 🧠", font=("Arial", 10, "italic")).pack()
-
-    edit:
-    ttk.Label(win, text=instructions, wraplength=350, justify="left").pack(pady=20)
-
-    instructions = (
+instructions = (
         "1. Click 'Start Quiz' to begin.\n"
         "2. Select the correct answer from the options.\n"
         "3. Click 'Next' to go to the next question.\n"
         "4. At the end, your score will be shown.\n"
         "5. You can choose different topics from the topic page."
     )
+    edit:
+    ttk.Label(win, text=instructions, wraplength=350, justify="left").pack(pady=20)
+
+    
 edit 
   ttk.Label(win, text=instructions, wraplength=350, justify="left").pack(pady=20)
     ttk.Button(win, text="Close", command=win.destroy).pack(pady=10)
